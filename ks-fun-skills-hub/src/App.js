@@ -1,9 +1,10 @@
 import "./App.css";
+import MainPage from "./components/MainPage";
 
 function App() {
   return (
-    <div className="App">
-      <h1>KsFunSkillsHub is in progress</h1>
+    <div>
+      <MainPage />
     </div>
   );
 }
