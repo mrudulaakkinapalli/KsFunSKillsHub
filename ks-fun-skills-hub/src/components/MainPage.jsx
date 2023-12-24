@@ -264,7 +264,7 @@ export default function MainPage(props) {
           <ContactUs />
         </div>
       </div>
-      <div id="footer-section" className="footer-section pt-5 pb-5">
+      <div id="contactUs" className="footer-section pt-5 pb-5">
         <div className="container">
           <div className="row institute-contact-details"> 
             <div class="col-4">
