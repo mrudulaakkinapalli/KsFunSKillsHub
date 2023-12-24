@@ -31,17 +31,17 @@ export default function MainPage(props) {
           justifyContent: "center",
         }}
       >
-        <div className="col-6 content-sec">
+        <div className="col-12 col-md-6 content-sec">
           <h1 className="home-heading">Unleash Potential with Fun Learning</h1>
           <p className="description">
-            We create an engaging environment online, with the best tutors for
+            We create an engaging environment environment online, with the best tutors for
             beginners in Guitar, Aptitude and Reasoning, and Personality
             Development. Our courses are uniquely tailored to make learning fun.{" "}
           </p>
           <button className="button">Enroll Now</button>
         </div>
         <div
-          className="col-6 image-column"
+          className="col-12 col-md-6 image-column"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img src={homeImage} className="homeImg" alt="allHandsImage" />
@@ -56,12 +56,12 @@ export default function MainPage(props) {
       style={{ display: "flex", alignItems: "center" }}>
                 
         <div
-          className="col-6 image-column"
+          className="col-12 col-md-6 image-column"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img src={aboutImage} className="aboutImg" alt="whyUsImage" />
         </div>
-        <div className="col-6 content-sec">
+        <div className="col-12 col-md-6 content-sec">
           <h1 className="common-heading ">
             <span className="green-color">Why</span> Our Coaching Service
             Special
@@ -76,7 +76,7 @@ export default function MainPage(props) {
         </div>
       </div>
       <div className="more-details ">
-        <div className="col-5">
+        <div className="col-12 col-md-5">
           <h1
             className="common-heading"
             style={{ fontSize: "35px", color: "white" }}
@@ -84,7 +84,7 @@ export default function MainPage(props) {
             Empowering learners through engaging, Fun learning
           </h1>
         </div>
-        <div className="col-5">
+        <div className="col-12 col-md-6">
           <p className="description white-color">
             we believe in teaching concepts in a light-hearted, enjoyable
             manner,helping learners to understand and retain vital skills.
@@ -124,7 +124,7 @@ export default function MainPage(props) {
                 className="common-heading white-color"
                 style={{ fontSize: "30px" }}
               >
-                1000
+                20
               </h1>
               <p className="description white-color">Happy Students</p>
             </div>
@@ -140,7 +140,7 @@ export default function MainPage(props) {
                 className="common-heading white-color"
                 style={{ fontSize: "30px" }}
               >
-                60
+                200
               </h1>
               <p className="description white-color text-center">Min</p>
             </div>
@@ -151,7 +151,7 @@ export default function MainPage(props) {
       <div id="Courses">
       <h1 className="common-heading text-center m-3">Courses We Offer</h1>
       <div className="course-details">
-        <div className="col-6 content-sec">
+        <div className="col-12 col-md-6 content-sec">
           <h1 className="common-heading">
             Master the Strings with Expert Instructors Online
           </h1>
@@ -165,7 +165,7 @@ export default function MainPage(props) {
           <button className="button">Enroll Now</button>
         </div>
         <div
-          className="col-6 image-column"
+          className="col-12 col-md-5 image-column"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img src={guitar} className="guitarImg" alt="guitarImage" />
@@ -173,12 +173,12 @@ export default function MainPage(props) {
       </div>
       <div className="course-details">
         <div
-          className="col-6 image-column"
+          className="col-12 col-md-6 image-column"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img src={piano} className="pianoImg" alt="guitarImage" />
         </div>
-        <div className="col-5 content-sec">
+        <div className="col-12 col-md-6 content-sec">
           <h1 className="common-heading">
             Master Piano with Skilled Instructors Online{" "}
           </h1>
@@ -192,7 +192,7 @@ export default function MainPage(props) {
         </div>
       </div>
       <div className="course-details">
-        <div className="col-6 content-sec">
+        <div className="col-12 col-md-6 content-sec">
           <h1 className="common-heading">
             Boost your mind with Aptitude Classes{" "}
           </h1>
@@ -205,7 +205,7 @@ export default function MainPage(props) {
           <button className="button">Join Today</button>
         </div>
         <div
-          className="col-6 image-column"
+          className="col-12 col-md-5 image-column"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img src={aptitude} className="guitarImg" alt="guitarImage" />
@@ -213,7 +213,7 @@ export default function MainPage(props) {
       </div>
       <div className="course-details">
         <div
-          className="col-6 image-column"
+          className="col-12 col-md-6 image-column"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img
@@ -222,7 +222,7 @@ export default function MainPage(props) {
             alt="guitarImage"
           />
         </div>
-        <div className="col-5 content-sec">
+        <div className="col-12 col-md-6 content-sec">
           <h1 className="common-heading">
             Transform with Personality Development Classes
           </h1>
@@ -237,16 +237,23 @@ export default function MainPage(props) {
       </div>
       </div>
       <div className="more-details">
-        <div className="col-6 text-center">
+        <div className="col-12 col-md-4 text-center">
           <h1 className="common-heading white-color ">Fee Structure</h1>
           <p className="common-heading white-color ">(1:1) : 2000/mo</p>
           <p className="common-heading white-color ">Group : 1000/mo</p>
         </div>
-        <div className="col-6 text-center">
+      
+        <div className="col-12 col-md-4 text-center">
           <h1 className="common-heading white-color ">Other Details</h1>
           <p className="common-heading white-color ">Mode : Online</p>
           <p className="common-heading white-color ">Duration : 60 Min</p>
         </div>
+        <div className="col-12 col-md-4 text-center">
+          <h1 className="common-heading white-color ">Payment Mode</h1>
+          <p className="common-heading white-color ">Google Pay &</p>
+          <p className="common-heading white-color ">Phone Pay</p>
+        </div>
+        
       </div>
       <div id="JoinUs" className="join-page text-center">
         <h1 className="common-heading white-color ">
@@ -267,7 +274,7 @@ export default function MainPage(props) {
       <div id="footer-section" className="footer-section pt-5 pb-5">
         <div className="container">
           <div className="row institute-contact-details"> 
-            <div class="col-4">
+            <div class="col-12 col-md-4 ">
               {/* <img className="logo" src={logo} alt="logo" /> */}
               <h1 className="common-heading" style={{ fontSize: "35px" }}>
                 Koushik Shankar Fun Skills Hub
@@ -288,7 +295,7 @@ export default function MainPage(props) {
                 </div>
               </div>
             </div>
-            <div class="col-3 text-center">
+            <div class="col-12 col-md-3 text-center">
               <h1 className="common-heading" style={{ fontSize: "35px" }}>
                 Contact Us</h1>
               <div className="contactIcon-detail-container">
