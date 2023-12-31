@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Fraunces');
+.icon {
+  width: 50px;
+  height: 50px;
+  color: #359E46;
+}
+.bg-container{
+  width: 100%;
+  background-color: white;
+}
+.home-bg-container{
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+.contact-form{
+  width: 30%;
+}
+.image-column {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.about-section{
+  display: flex;
+  width: 100%;
+  align-items:center;
+  justify-content: center;
+}
+.content-sec{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.homeImg{
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+.course-details{
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+  overflow: hidden;
+}
+.navBg{
+  background-color: #359E46;
+}
+.navItem{
+  color: black;
+}
+.textStyle{
+  font-family: Fraunces;
+}
+.nav-button{
+  border-radius: 20px;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.homeImg{
+  height: 80%;
+  width: 90%;
+}
+.aboutImg{
+  height: 80%;
+  width: 80%;
+  object-fit: cover;
+
+}
+.home-heading{
+  font-family: Fraunces;
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+
+}
+.description{
+  font-family: Fraunces;
+  font-size: 22px;
+  width: 90%;
+  color: #6A6A6A;
+  margin-top: 2%;
+}
+
+.button{
+  border-radius: 30px;
+  border: 0px;
+  padding: 10px;
+  width: 300px;
+  color: white;
+  font-family: Fraunces;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #359E46;
+}
+.form-item{
+  height: 50px;
+}
+.submit-button {
+  border-radius: 30px;
+  border: 0px;
+  height: 50px;
+  width: 250px;
+  color: white;
+  font-family: Fraunces;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: black; 
+}
+
+.submit-button:disabled {
+  background-color: rgb(111, 119, 113);
+}
+.common-heading{
+  font-family: Fraunces;
+  font-size: 45px;
+  font-weight: bold;
+}
+.button-container{
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+.other-detail-desc{
+  font-family: Fraunces;
+  font-size: 25px;
+  color: white;
+  font-weight: normal;
+}
+@media (max-width: 600px) {
+  .common-heading {
+    font-size: 30px;
+  }
+  .contact-form{
+    width: 90%;
+  }
+  .description{
+    font-size: 20px;
+    width : 100%;
+  }
+  .content-sec{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .home-heading{
+    font-size: 45px;  
+  }
+  .home-bg-container{
+    padding-bottom: 20px;
+  }
+  .other-detail-desc{
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+  }
+}
+.green-color{
+  color: #359E46;
+  text-align: center;
+}
+.white-color{
+  color: white;
+}
+.founder-name{
+  color: black;
+  font-weight: bold;
+
+}
+.more-details{
+  background-color: black;
+  width: 100%;
+  padding: 40px;
+
+}
+
+
+.image-container {
+  width: 100%;
+  text-align: center;
+}
+.guitarImg{
+  height: 100%;
+  width: 90%;
+}
+.pianoImg{
+  height: 100%;
+  width: 90%;
+}
+.join-page{
+  background-color: #359E46;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+.footer-section{
+  background-color: white;
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  justify-content: space-between;
+}
+.social-icons-container{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.social-icon{
+  height: 40px;
+  width: 40px;
+  color: #000000;
+}
+.contact-icons{
+  height: 30px;
+  width: 30px;
+  color:#359E46;
+  margin-right: 10px;
+}
+.institute-contact-details{
+  display: flex;
+  justify-content: space-between;
+}
+.contactIcon-detail-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.contact-description{
+  font-family: Fraunces;
+  font-size: 22px;
+  color: #000000;
+  margin: 0px;
+}
