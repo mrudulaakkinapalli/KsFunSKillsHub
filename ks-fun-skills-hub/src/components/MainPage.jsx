@@ -66,13 +66,12 @@ export default function MainPage(props){
                         <h1 className="common-heading ">
                         <span className="green-color">Why</span> Our Coaching Service Special
                         </h1>
-                        <p className="description">
-                            <span className="founder-name">Koushik Shankar</span> Academy is
-                            best online Fun learning academy. Our institute provides best
-                            Tutors for beginners in Guitar. Learning and developing your
-                            Aptitude and Reasoning classes from Basic to Advanced level to
-                            develop and train your skills ready for clearing all Olympiads
-                            and competitive exams.
+                        <p className="description"><span className="founder-name">Koushik Shankar</span> Academy stands as the premier online fun learning hub, 
+                        offering expert guitar tutors for beginners and in-depth Aptitude and Reasoning classes. 
+                        Founded by CEO <span className="founder-name">Akkinapalli Mrudula,</span> an experienced engineer with a teaching background since 2005,
+                         and co-founder <span className="founder-name">Sudharani,</span> our academy is dedicated to preparing students for academic success and
+                          competitive exams. Join us for a vibrant learning experience that sets the stage for clearing Olympiads
+                           and mastering new skills.
                         </p>
                     </Col>
                     </Row>
@@ -91,11 +90,11 @@ export default function MainPage(props){
                                 </p>
                                 <div style={{display:"flex"}}>
                                     <div  style={{ width:"100px", display: "flex", flexDirection: "column", alignItems: "center", }}>
-                                        <h1 className="common-heading white-color" style={{ fontSize: "30px" }} >100</h1>
+                                        <h1 className="common-heading white-color" style={{ fontSize: "30px" }} >20</h1>
                                         <p className="description text-center white-color">Tutors</p>
                                     </div>
                                     <div style={{width:"200px", display: "flex", flexDirection: "column", alignItems: "center", }}>
-                                        <h1 className="common-heading white-color" style={{ fontSize: "30px" }} >1000</h1>
+                                        <h1 className="common-heading white-color" style={{ fontSize: "30px" }} >100</h1>
                                         <p className="description white-color text-center">Happy Students</p>
                                     </div>
                                     <div style={{width:"100px", display: "flex", flexDirection: "column", alignItems: "center", }}>
@@ -264,7 +263,7 @@ export default function MainPage(props){
                                 Koushik Shankar Academy, the place for Fun and enjoyable
                                 learning.
                             </p>
-                            <div className="social-icons-container">
+                                                        <div className="social-icons-container">
                                 <div>
                                 <FontAwesomeIcon
                                     class="social-icon"
@@ -272,10 +271,12 @@ export default function MainPage(props){
                                 />
                                 </div>
                                 <div>
-                                <FontAwesomeIcon
-                                    class="social-icon"
-                                    icon={faInstagramSquare}
-                                />
+                                <a href="https://www.instagram.com/ksfun_skillshub?igsh=MTNnY2tuOGpqOHZsYg==" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon
+                                        className="social-icon"
+                                        icon={faInstagramSquare}
+                                    />
+                                </a>
                                 </div>
                                 <div>
                                 <FontAwesomeIcon class="social-icon" icon={faTwitterSquare} />
