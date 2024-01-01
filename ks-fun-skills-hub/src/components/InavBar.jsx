@@ -14,7 +14,7 @@ function InavBar() {
 
   return (
     <>
-      <Navbar fixed="top" expand="md" className='navBg' data-bs-theme="dark">
+      <Navbar fixed="top" expand="lg" className='navBg' data-bs-theme="dark">
         <Container className='textStyle'>
           <Navbar.Brand href="#Home" className='textStyle'>
             <img className="logo" src={logo} alt="logo"/>

@@ -17,10 +17,12 @@ export const ContactUs = () => {
   const [course,setCourse]=useState('');
   const [requiredSlot,setRequiredSlot]=useState('');
   const [open,setOpen]=useState(false);
+  const isValid = firstName !== "" && lastName !== "" && email !== "" && requiredSlot !== "" && course !== "" && mobile !== "";
 
   const form = useRef();
 
   const sendEmail = (e) => {
+  
     if(isModified){
       setOpen(true)
       setFirstName('');
@@ -104,11 +106,12 @@ export const ContactUs = () => {
             onChange={(e)=>{setRequiredSlot(e.target.value);setisModified(true)}}
 
           />
+          {!isValid?<p style={{color:"white",fontFamily:"Fraunces",fontSize:"15px",fontWeight:"500",margin:"0px",padding:"0px"}}>* Please fill all the fields </p>:""}
           <div style={{display:"flex",justifyContent:"center"}}>
           <button type="submit" class="submit-button" disabled={ !(firstName!=="" && lastName !=="" && email!=="" && requiredSlot!=="" && course!=="" && mobile!=="")}  variant="dark"  >
         Submit
       </button>
-      </div>          
+                </div>          
         </form> 
     </>
      
