@@ -288,7 +288,7 @@ export default function MainPage(props){
                             </h1>
                             <div className="contactIcon-detail-container">
                                 <FontAwesomeIcon className="contact-icons" icon={faEnvelope} />
-                                <p className="contact-description">mrudulaakkinapalli@gmail.com</p>
+                                <p className="contact-description">mrudula@ksfunskillshub.com</p>
                             </div>
                             <div className="contactIcon-detail-container">
                                 <FontAwesomeIcon className="contact-icons" icon={faPhone} />
